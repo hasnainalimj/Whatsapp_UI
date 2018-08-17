@@ -1,0 +1,335 @@
+*{
+	margin: 0;
+	padding:  0;
+}
+
+.header{
+	height: 50px;
+	background-color: #464646;
+	display: flex;
+	align-items: center;
+}
+
+.section{
+	height: 530px;
+	display: flex;
+	display: inline-block;
+}
+
+.footer{
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.arrow{
+	flex: 1
+}
+
+.arrow p{
+	font-weight: bold;
+	color: #FFF;
+	font-size: 26px;
+	margin-left: 7px;
+}
+
+.profile{
+	flex: 2;
+}
+
+.profile img{
+	width: 35px;
+	height: 35px;
+	margin-top: 3px;
+}
+
+.title{
+	flex: 10;
+	align-items: flex-start;
+
+}
+
+.title p{
+	color: #FFF;
+	font-size: 18px;
+	font-family: sans-serif;
+}
+
+#members{
+	font-size: 12px;
+	font-family: sans-serif;
+	color: #FFF;
+}
+
+.menu{
+	flex: 1;
+}
+
+.menu p{
+	color: #FFF;
+	font-size: 20px;
+}
+
+.chat-items{
+	border-radius: 25px	25px 25px 25px;
+	flex: 9;
+	height: 45px;
+	display: flex;
+	background-color: #FFF;
+	align-items: center;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.emoji{
+	color: grey;
+	margin-left: 7px;
+	flex: 2;
+}
+
+.message{
+	height: 30px;
+	font-size: 14px;
+	width: 110px;
+	border: none;
+	flex: 4;
+}
+
+.attachment{
+	color: grey;
+	flex: 2;
+}
+
+.camera{
+	color: grey;
+	flex: 2;
+}
+
+.footer img{
+	width: 40px;
+	height: 40px;
+	flex: 1;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.sir-message{
+	width: 250px;
+	height: 85px;
+	background-color: #FFF;
+	border-radius: 10px;
+	margin-left: 5px;
+	margin-top: 5px;
+	flex: 3
+}
+
+.sir-title{
+	color: #ff8000;
+	font-weight: bold;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.sir-says{
+	font-family: sans-serif;
+	font-size: 12px;
+	margin-left: 5px;
+	margin-top: 2px;
+	font-weight: bold;
+	float: left;
+}
+
+.sir-time{
+	font-size: 10px;
+	color: grey;
+	float: right;
+	margin-right: 5px;
+}
+
+.riaz-message{
+	width: 170px;
+	height: 60px;
+	background-color: #FFF;
+	border-radius: 10px;
+	margin-left: 5px;
+	margin-top: 15px;
+	flex: 3;
+}
+
+.riaz-title{
+	color: #ff0000;
+	font-weight: bold;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.riaz-says{
+	font-family: sans-serif;
+	font-size: 12px;
+	margin-left: 5px;
+	margin-top: 2px;
+	font-weight: bold;
+	float: left;
+}
+
+.riaz-time{
+	font-size: 10px;
+	color: grey;
+	float: right;
+	margin-right: 5px;
+}
+
+.shaiq-message{
+	width: 170px;
+	height: 60px;
+	background-color: #FFF;
+	border-radius: 10px;
+	margin-left: 5px;
+	margin-top: 15px;
+	flex: 3;
+}
+
+.shaiq-title{
+	color: #ff8000;
+	font-weight: bold;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.shaiq-says{
+	font-family: sans-serif;
+	font-size: 12px;
+	margin-left: 5px;
+	margin-top: 2px;
+	font-weight: bold;
+	float: left;
+}
+
+.shaiq-time{
+	font-size: 10px;
+	color: grey;
+	float: right;
+	margin-right: 5px;
+}
+
+.s-emoji{
+	width: 20px;
+	height: 20px;
+}
+
+#space{
+	margin-left: 5px;
+}
+
+.samad-message{
+	width: 210px;
+	height: 60px;
+	background-color: #FFF;
+	border-radius: 10px;
+	margin-left: 5px;
+	margin-top: 15px;
+	flex: 3;
+}
+
+.samad-title{
+	color: #ff0000;
+	font-weight: bold;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.samad-says{
+	font-family: sans-serif;
+	font-size: 12px;
+	margin-left: 5px;
+	margin-top: 2px;
+	font-weight: bold;
+	float: left;
+}
+
+.samad-time{
+	font-size: 10px;
+	color: grey;
+	float: right;
+	margin-right: 5px;
+}
+
+.junaid-message{
+	width: 180px;
+	height: 60px;
+	background-color: #FFF;
+	border-radius: 10px;
+	margin-left: 5px;
+	margin-top: 15px;
+	flex: 3;
+}
+
+.junaid-title{
+	color: #ff8000;
+	font-weight: bold;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.junaid-says{
+	font-family: sans-serif;
+	font-size: 12px;
+	margin-left: 5px;
+	margin-top: 2px;
+	font-weight: bold;
+	float: left;
+}
+
+.junaid-time{
+	font-size: 10px;
+	color: grey;
+	float: right;
+	margin-right: 5px;
+}
+
+.tick{
+	width: 17px;
+	height: 17px;
+	float: right;
+}
+
+.mine-message{
+	width: 180px;
+	height: 40px;
+	background-color: #bbff99;
+	border-radius: 10px;
+	margin-top: 15px;
+	flex: 3;
+	float: right;
+	margin-left: 175px;
+}
+
+.mine-title{
+	color: #ff8000;
+	font-weight: bold;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.mine-says{
+	font-family: sans-serif;
+	font-size: 12px;
+	margin-left: 5px;
+	margin-top: 2px;
+	font-weight: bold;
+	float: left;
+}
+
+.mine-time{
+	font-size: 10px;
+	color: grey;
+	float: right;
+	margin-right: 5px;
+}
+
+.thumb{
+	width: 30px;
+	height: 30px;
+	margin-left: 5px;
+}
